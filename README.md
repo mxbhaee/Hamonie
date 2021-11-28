@@ -1,4 +1,4 @@
-# Retro Music Player 🎵
+# Hamonie Music Player 🎵
 
 [![Generic badge](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/RetroMusicPlayer/RetroMusicPlayer)
 [![Generic badge](https://img.shields.io/badge/minSdkVersion-21-green.svg)](https://github.com/RetroMusicPlayer/RetroMusicPlayer)
