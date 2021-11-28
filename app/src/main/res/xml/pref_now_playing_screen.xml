@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.hamonie.preferences.NowPlayingScreenPreference
+        android:key="now_playing_screen_id"
+        android:layout="@layout/list_item_view"
+        android:title="@string/pref_title_now_playing_screen_appearance"
+        app:icon="@drawable/ic_play_circle_filled" />
+
+    <com.hamonie.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+        android:defaultValue="false"
+        android:key="extra_song_info"
+        android:layout="@layout/list_item_view_switch"
+        android:summary="@string/pref_summary_extra_song_info"
+        android:title="@string/pref_title_extra_song_info" />
+
+    <com.hamonie.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+        android:defaultValue="false"
+        android:key="show_lyrics"
+        android:layout="@layout/list_item_view_switch"
+        android:summary="@string/pref_summary_show_lyrics"
+        android:title="@string/pref_title_show_lyrics" />
+
+    <com.hamonie.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory
+        android:layout="@layout/preference_category_title"
+        android:title="@string/pref_header_album">
+
+        <com.hamonie.preferences.AlbumCoverStylePreference
+            android:key="album_cover_style_id"
+            android:layout="@layout/list_item_view"
+            android:title="@string/pref_title_album_cover_style"
+            app:icon="@drawable/ic_image" />
+
+        <com.hamonie.appthemehelper.common.prefs.supportv7.ATEListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_album_cover_transform_entities"
+            android:entryValues="@array/pref_album_cover_transform_values"
+            android:key="album_cover_transform"
+            android:layout="@layout/list_item_view"
+            android:title="@string/pref_title_album_cover_transform" />
+
+        <com.hamonie.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+            android:layout="@layout/list_item_view_switch"
+            app:defaultValue="false"
+            app:icon="@drawable/ic_view_carousel"
+            app:key="carousel_effect"
+            app:summary="@string/pref_summary_carousel_effect"
+            app:title="@string/pref_title_toggle_carousel_effect" />
+    </com.hamonie.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory>
+
+    <com.hamonie.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory
+        android:layout="@layout/preference_category_title"
+        android:title="@string/pref_header_controls">
+
+        <com.hamonie.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+            android:layout="@layout/list_item_view_switch"
+            app:defaultValue="false"
+            app:icon="@drawable/ic_play_arrow"
+            app:key="toggle_add_controls"
+            app:summary="@string/pref_summary_extra_controls"
+            app:title="@string/pref_title_extra_controls" />
+
+
+        <com.hamonie.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+            android:layout="@layout/list_item_view_switch"
+            app:defaultValue="false"
+            app:icon="@drawable/ic_volume_up"
+            app:key="toggle_volume"
+            app:summary="@string/pref_summary_toggle_volume"
+            app:title="@string/pref_title_toggle_volume" />
+
+        <com.hamonie.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+            android:layout="@layout/list_item_view_switch"
+            app:defaultValue="false"
+            app:icon="@drawable/ic_expand_less"
+            app:key="expand_now_playing_panel"
+            app:summary="@string/pref_summary_expand_now_playing_panel"
+            app:title="@string/pref_title_expand_now_playing_panel" />
+
+        <com.hamonie.appthemehelper.common.prefs.supportv7.ATESeekBarPreference
+            android:defaultValue="12"
+            android:key="new_blur_amount"
+            android:layout="@layout/list_item_view_seekbar"
+            android:max="25"
+            android:summary="@string/pref_blur_amount_summary"
+            android:title="@string/pref_blur_amount_title"
+            app:icon="@drawable/ic_blur_on"
+            app:ateKey_pref_unit="px"
+            app:showSeekBarValue="true" />
+    </com.hamonie.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>

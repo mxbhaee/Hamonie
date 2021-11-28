@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ContributorsView">
+        <attr name="profile_url" format="string" />
+        <attr name="profile_name" format="string" />
+        <attr name="profile_summary" format="string" />
+        <attr name="profile_link" format="string" />
+    </declare-styleable>
+</resources>
