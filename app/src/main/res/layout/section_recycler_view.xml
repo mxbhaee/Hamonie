@@ -23,7 +23,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:padding="16dp"
+            android:padding="20dp"
             android:textAppearance="@style/TextViewHeadline6"
             android:textStyle="bold"
             tools:text="@tools:sample/full_names" />
@@ -32,7 +32,7 @@
             android:id="@+id/arrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="16dp"
+            android:padding="20dp"
             app:srcCompat="@drawable/ic_arrow_forward" />
     </LinearLayout>
 

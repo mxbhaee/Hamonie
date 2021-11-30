@@ -110,7 +110,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:settingListItemIcon="@drawable/ic_play_circle_filled"
-            app:settingListItemIconColor="@color/md_red_A400"
+            app:settingListItemIconColor="@color/md_blue_A400"
             app:settingListItemText="@string/now_playing_summary"
             app:settingListItemTitle="@string/now_playing" />
 
@@ -138,7 +138,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:settingListItemIcon="@drawable/ic_image"
-            app:settingListItemIconColor="@color/md_deep_orange_A400"
+            app:settingListItemIconColor="@color/md_blue_A400"
             app:settingListItemText="@string/image_settings_summary"
             app:settingListItemTitle="@string/pref_header_images" />
 
@@ -147,7 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:settingListItemIcon="@drawable/ic_notifications_active"
-            app:settingListItemIconColor="@color/md_yellow_A400"
+            app:settingListItemIconColor="@color/md_blue_A400"
             app:settingListItemText="@string/notification_settings_summary"
             app:settingListItemTitle="@string/notification" />
 
@@ -174,7 +174,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:settingListItemIcon="@drawable/ic_info_outline"
-            app:settingListItemIconColor="@color/md_light_green_A400"
+            app:settingListItemIconColor="@color/md_blue_A400"
             app:settingListItemText="@string/about_settings_summary"
             app:settingListItemTitle="@string/action_about" />
 

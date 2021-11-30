@@ -169,12 +169,12 @@ class HomeAdapter(
         private val images = listOf(
             R.id.image1,
             R.id.image2,
-            R.id.image3,
-            R.id.image4,
+            R.id.image3
+            /**R.id.image4,
             R.id.image5,
             R.id.image6,
             R.id.image7,
-            R.id.image8
+            R.id.image8 **/
         )
 
         fun bindView(home: Home) {

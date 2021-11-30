@@ -12,6 +12,7 @@
         android:paddingTop="16dp"
         android:paddingEnd="16dp"
         android:textStyle="bold"
+        android:textSize="18sp"
         android:textAppearance="@style/TextViewOverline"
         tools:text="@tools:sample/full_names" />
 </LinearLayout>

@@ -74,6 +74,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:padding="16dp"
+            android:visibility="gone"
             android:text="@string/made_with_love"
             android:textAppearance="@style/TextViewBody1"
             app:layout_constrainedWidth="true"

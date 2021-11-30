@@ -51,6 +51,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/appGithub"
             app:listItemIcon="@drawable/ic_flag"
+            android:visibility="gone"
             app:listItemSummary="@string/translate_community"
             app:listItemTitle="@string/translate" />
 

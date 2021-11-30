@@ -48,5 +48,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:text="@string/view_on_telegram"
+        app:cornerRadius="10dp"
+        android:padding="20dp"
         app:icon="@drawable/ic_telegram_white" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

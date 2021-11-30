@@ -183,7 +183,8 @@
             android:textAppearance="@style/TextViewHeadline6"
             android:textColor="@color/md_black_1000"
             app:backgroundTint="@color/md_white_1000"
-            app:cornerRadius="28dp" />
+            app:cornerRadius="10dp"
+            android:padding="20dp"/>
 
 
         <com.google.android.material.button.MaterialButton
@@ -195,7 +196,8 @@
             android:paddingVertical="16dp"
             android:text="@string/purchase"
             android:textAppearance="@style/TextViewHeadline6"
-            app:cornerRadius="28dp" />
+            app:cornerRadius="10dp"
+            android:padding="20dp"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

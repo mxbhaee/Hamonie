@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:background="@color/md_red_500">
+    tools:background="@color/md_blue_A400">
 
     <LinearLayout
         android:id="@+id/media_titles"
