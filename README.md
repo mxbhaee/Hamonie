@@ -7,6 +7,10 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/MxBhaee?style=social)](https://twitter.com/MxBhaee)
 [![Crowdin](https://badges.crowdin.net/retromusicplayer/localized.svg)](https://crowdin.com/project/retromusicplayer)
 
+`` ``
+<img src="https://lh5.googleusercontent.com/IsCS89YrDRDkYvBa4AzoImy4VBzGJrATRb-C63Pgv2qMaBcnvdVnZozkt8IFKGJHK9KMXW-M1Z6iNp9L4lRUVxc=w16383" width="720">
+
+`` ``
 ## 🆕 Material You Design Music Player for Android music lovers 
 
 ## ⚠ Join [@bhaeecorp](https://t.me/bhaeecorp) on Telegram for important updates.
