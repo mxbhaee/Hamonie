@@ -9,7 +9,7 @@
 
 `` ``
 
-<img src="https://raw.githubusercontent.com/mxbhaee/Hamonie/master/hamonie.jpg" width="720" height="720">
+<img src="https://raw.githubusercontent.com/mxbhaee/Hamonie/master/hamonie.jpg" width="1080" height="600">
 
 
 `` ``
