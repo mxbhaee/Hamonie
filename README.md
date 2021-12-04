@@ -11,26 +11,7 @@
 
 ## ⚠ Join [@retromusiclog](https://t.me/retromusiclog) on Telegram for important updates.
 
-## Screenshots
-### App Themes
-| <img src="screenshots/home.jpeg" width="200"/> | <img src="screenshots/home_dark.jpeg" width="200"/> | <img src="screenshots/home_black.jpeg" width="200"/> |
-|:---:|:---:|:---:|
-|Clearly white| Kinda dark | Just black|
-
-### Player screen
-| <img src="screenshots/home.jpeg" width="200"/>| <img src="screenshots/list.jpeg" width="200"/>| <img src="screenshots/albums.jpeg" width="200"/>| <img src="screenshots/settings.jpeg" width="200"/>|
-|:---:|:---:|:---:|:---:|
-| Home | Songs | Albums | Settings |
-
-### 9+ Now playing themes
- 
-| <img src="screenshots/np_normal.jpeg" width="200"/>	|<img src="screenshots/np_fit.jpeg" width="200"/>|   <img src="screenshots/np_flat.jpeg" width="200"/>  	|    <img src="screenshots/np_color.jpeg" width="200"/> 	|     <img src="screenshots/np_material.jpeg" width="200"/>	|
-|:-----:	|:-----:	|:-----:	|:-----:	|:-----:	|
-| Normal 	| Fit 	| Flat 	| Color 	| Material 	|
-
-| <img src="screenshots/no_classic.jpeg" width="200"/>	|<img src="screenshots/np_adaptive.jpeg" width="200"/>|   <img src="screenshots/np_blur.jpeg" width="200"/>  	|    <img src="screenshots/np_tiny.jpeg" width="200"/> 	|     <img src="screenshots/np_peak.jpeg" width="200"/>	|
-|:-----:	|:-----:	|:-----:	|:-----:	|:-----:	|
-| Classic 	| Adaptive 	| Blur 	| Tiny 	| Peak 	|
+## Application Details
 
 ### 🧭 Navigation never made easier 
 Self-explanatory interface without overloaded menus.
