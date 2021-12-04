@@ -1,15 +1,11 @@
 # Hamonie Music Player 🎵
-
+<img src="https://raw.githubusercontent.com/mxbhaee/Hamonie/master/hamonie.jpg" width="1080" height="480">
 [![Generic badge](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/mxbhaee/Hamonie)
 [![Generic badge](https://img.shields.io/badge/minSdkVersion-21-green.svg)](https://github.com/mxbhaee/Hamonie)
 [![Generic badge](https://img.shields.io/badge/Download-Google_Play-green.svg)](https://play.google.com/store/apps/details?id=com.hamonie&hl=en_IN)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/RetroMusicPlayer/RetroMusicPlayer/blob/master/LICENSE.md)
 [![Twitter Follow](https://img.shields.io/twitter/follow/MxBhaee?style=social)](https://twitter.com/MxBhaee)
 [![Crowdin](https://badges.crowdin.net/retromusicplayer/localized.svg)](https://crowdin.com/project/retromusicplayer)
-
-`` ``
-
-<img src="https://raw.githubusercontent.com/mxbhaee/Hamonie/master/hamonie.jpg" width="1080" height="480">
 
 
 `` ``
