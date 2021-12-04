@@ -99,7 +99,9 @@
         app:layout_constraintStart_toEndOf="@+id/previousButton"
         app:layout_constraintTop_toBottomOf="@+id/progressContainer"
         app:srcCompat="@drawable/ic_pause"
-        tools:tint="@color/md_black_1000" />
+        tools:tint="@color/md_black_1000"
+        android:contentDescription="play"
+        tools:ignore="ContentDescription,HardcodedText" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/nextButton"

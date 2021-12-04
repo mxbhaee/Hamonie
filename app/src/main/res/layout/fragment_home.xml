@@ -57,10 +57,20 @@
             android:layout_height="wrap_content"
             android:transitionGroup="true">
 
+            <include
+                android:id="@+id/home_content"
+                layout="@layout/home_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleWelcome" />
+
             <com.hamonie.views.RetroShapeableImageView
                 android:id="@+id/userImage"
                 android:layout_width="42dp"
                 android:layout_height="42dp"
+                android:visibility="gone"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
@@ -78,6 +88,7 @@
                 android:layout_marginStart="16dp"
                 android:ellipsize="end"
                 android:text="@string/welcome"
+                android:visibility="gone"
                 app:layout_constraintStart_toEndOf="@+id/userImage"
                 app:layout_constraintTop_toTopOf="@+id/userImage"
                 tools:text="@tools:sample/lorem" />
@@ -88,6 +99,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="0dp"
+                android:visibility="gone"
                 android:textAppearance="@style/TextViewHeadline6"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textStyle="bold"
@@ -96,14 +108,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/text"
                 tools:text="@tools:sample/lorem" />
 
-            <include
-                android:id="@+id/home_content"
-                layout="@layout/home_content"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/titleWelcome" />
         </com.hamonie.views.insets.InsetsConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>

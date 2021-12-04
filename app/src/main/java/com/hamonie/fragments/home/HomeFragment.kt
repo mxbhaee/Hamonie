@@ -1,12 +1,16 @@
 package com.hamonie.fragments.home
 
+import android.app.ProgressDialog.show
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.MenuItem.SHOW_AS_ACTION_IF_ROOM
 import android.view.View
+import android.widget.Toast
 import androidx.activity.addCallback
+import androidx.core.graphics.component1
 import androidx.core.os.bundleOf
 import androidx.core.text.HtmlCompat
 import androidx.core.view.doOnPreDraw
@@ -31,6 +35,13 @@ import com.google.android.gms.cast.framework.CastButtonFactory
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.transition.MaterialFadeThrough
 import com.google.android.material.transition.MaterialSharedAxis
+import com.hamonie.activities.SettingsActivity
+import com.maxkeppeler.sheets.options.DisplayMode
+import com.maxkeppeler.sheets.options.Option
+import com.maxkeppeler.sheets.options.OptionsSheet
+import com.hamonie.activities.MainActivity
+import kotlinx.coroutines.selects.select
+
 
 class HomeFragment :
     AbsMainActivityFragment(if (PreferenceUtil.isHomeBanner) R.layout.fragment_banner_home else R.layout.fragment_home) {
@@ -164,6 +175,7 @@ class HomeFragment :
         menu.removeItem(R.id.action_grid_size)
         menu.removeItem(R.id.action_layout_type)
         menu.removeItem(R.id.action_sort_order)
+
         menu.findItem(R.id.action_settings).setShowAsAction(SHOW_AS_ACTION_IF_ROOM)
         ToolbarContentTintHelper.handleOnCreateOptionsMenu(
             requireContext(),
@@ -206,11 +218,7 @@ class HomeFragment :
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_settings -> findNavController().navigate(
-                R.id.settingsActivity,
-                null,
-                navOptions
-            )
+            R.id.action_settings -> opticals()
             R.id.action_import_playlist -> ImportPlaylistDialog().show(
                 childFragmentManager,
                 "ImportPlaylist"
@@ -221,6 +229,21 @@ class HomeFragment :
             )
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun opticals() {
+        OptionsSheet().show(requireActivity()) {
+            title("Setting Options")
+            displayMode(DisplayMode.LIST)
+            with(
+                Option(R.drawable.ic_settings, "settings")
+            )
+            onPositive { index: Int, option: Option ->
+                val i = Intent(requireContext(), SettingsActivity::class.java)
+                requireActivity().startActivity(i)
+            }
+
+        }
     }
 
     override fun onPrepareOptionsMenu(menu: Menu) {
