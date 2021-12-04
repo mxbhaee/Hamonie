@@ -1,15 +1,15 @@
 # Hamonie Music Player 🎵
 
-[![Generic badge](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/RetroMusicPlayer/RetroMusicPlayer)
-[![Generic badge](https://img.shields.io/badge/minSdkVersion-21-green.svg)](https://github.com/RetroMusicPlayer/RetroMusicPlayer)
+[![Generic badge](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/mxbhaee/Hamonie)
+[![Generic badge](https://img.shields.io/badge/minSdkVersion-21-green.svg)](https://github.com/mxbhaee/Hamonie)
 [![Generic badge](https://img.shields.io/badge/Download-Google_Play-green.svg)](https://play.google.com/store/apps/details?id=com.hamonie&hl=en_IN)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/RetroMusicPlayer/RetroMusicPlayer/blob/master/LICENSE.md)
-[![Twitter Follow](https://img.shields.io/twitter/follow/retromusicapp?style=social)](https://twitter.com/retromusicapp)
+[![Twitter Follow](https://img.shields.io/twitter/follow/MxBhaee?style=social)](https://twitter.com/MxBhaee)
 [![Crowdin](https://badges.crowdin.net/retromusicplayer/localized.svg)](https://crowdin.com/project/retromusicplayer)
 
 ## 🆕 Material You Design Music Player for Android music lovers 
 
-## ⚠ Join [@retromusiclog](https://t.me/retromusiclog) on Telegram for important updates.
+## ⚠ Join [@bhaeecorp](https://t.me/bhaeecorp) on Telegram for important updates.
 
 ## Application Details
 
@@ -50,7 +50,6 @@ favorite songs. No other music player has this feature.
 -  Create, edit and import playlists
 -  Playing queue with reorder
 -  User profile
--  30+ languages support (help translate the project: [Crowdin](https://crowdin.com/project/retromusicplayer)
 -  Browse and play your music by songs, albums, artists, playlists and
   genre
 -  Smart Auto Playlists - Recently played, most played and history
@@ -62,21 +61,14 @@ We are trying our best to bring you the best user experience. The app is regular
 ### ❓ FAQ
 Please read the FAQ [here](https://retromusic.app/faq.html)
 
-In any case, you find or notice any bugs please report them by creating an issue or by contacting us in the [Telegram group](https://t.me/retromusicapp).
-If you have any feature suggestions, please create an issue with detailed information or by contacting us in the [Telegram group](https://t.me/retro_music_suggestion).
+In any case, you find or notice any bugs please report them by creating an issue or by contacting us in the [Telegram group](https://t.me/bhaeecorp).
+If you have any feature suggestions, please create an issue with detailed information or by contacting us in the [Telegram group](https://t.me/bhaeecorp).
 
 ### 🔗 Social links
-**Telegram:** https://t.me/retromusicapp <br>
-**Instagram:** https://instagram.com/retromusicapp <br>
-**Crowdin**: https://crowdin.com/project/retromusicplayer <br>
-**Pinterest:** https://pinterest.com/retromusicapp <br>
-**Twitter:** https://twitter.com/retromusicapp <br>
+**Telegram:** https://t.me/bhaeecorp <br>
+**Twitter:** https://twitter.com/mxbhaee <br>
 
 ### 🗂️ License
 
-Retro Music Player is released under the GNU General Public License v3.0
+Hamonie Music Player is released under the GNU General Public License v3.0
 (GPLv3), which can be found [here](LICENSE.md)
-
-
->Please note: Retro Music Player is an offline music player app. It
->doesn't support music downloading or online music streaming.
