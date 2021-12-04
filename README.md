@@ -8,15 +8,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/MxBhaee?style=social)](https://twitter.com/MxBhaee)
 [![Crowdin](https://badges.crowdin.net/retromusicplayer/localized.svg)](https://crowdin.com/project/retromusicplayer)
 
-
-`` ``
-## 🆕 Material You Design Music Player for Android music lovers 
-
-## ⚠ Join [@bhaeecorp](https://t.me/bhaeecorp) on Telegram for important updates.
-
-## Application Details
-
-website link
+##website link
 
 https://sites.google.com/view/hamoniemusicplayer/main
 
@@ -53,8 +45,7 @@ favorite songs. No other music player has this feature.
 -  Create, edit and import playlists
 -  Playing queue with reorder
 -  User profile
--  Browse and play your music by songs, albums, artists, playlists and
-  genre
+-  Browse and play your music by songs, albums, artists, playlists and genre
 -  Smart Auto Playlists - Recently played, most played and history
 -  Build your playlist on the go
 
