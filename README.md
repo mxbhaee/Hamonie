@@ -8,7 +8,9 @@
 [![Crowdin](https://badges.crowdin.net/retromusicplayer/localized.svg)](https://crowdin.com/project/retromusicplayer)
 
 `` ``
-<img src="https://raw.githubusercontent.com/mxbhaee/Hamonie/master/hamonie.jpg" width="1080" height="720">
+
+<img src="https://raw.githubusercontent.com/mxbhaee/Hamonie/master/hamonie.jpg" width="720" height="720">
+
 
 `` ``
 ## 🆕 Material You Design Music Player for Android music lovers 
