@@ -1,5 +1,5 @@
 # Hamonie Music Player 🎵
-<img src="https://raw.githubusercontent.com/mxbhaee/Hamonie/master/hamonie.jpg" width="1080" height="450">
+<img src="https://raw.githubusercontent.com/mxbhaee/Hamonie/master/hamonie.jpg" width="1080" height="400">
 
 [![Generic badge](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/mxbhaee/Hamonie)
 [![Generic badge](https://img.shields.io/badge/minSdkVersion-21-green.svg)](https://github.com/mxbhaee/Hamonie)
